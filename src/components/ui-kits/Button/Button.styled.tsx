@@ -20,6 +20,20 @@ export const StyledButton = styled.button`
   text-indent: 0px;
   text-shadow: none;
 
+  ${({ primary }) =>
+    primary &&
+    `
+    background-color: #007bff;
+    color: white;
+  `}
+
+  ${({ full }) =>
+    full &&
+    `
+    width: 100%;
+    margin: 10px 0;
+  `}
+
   &:not(:disabled):not(.disabled) {
     cursor: pointer;
   }

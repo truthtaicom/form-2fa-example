@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { Text } from '../ui-kits/Text'
 import {
   StyledHeader,
@@ -20,7 +21,7 @@ const Header: React.FC = () => {
           <Text>Products</Text>
         </StyledHeaderMenuItem>
       </StyledHeaderMenu>
-      <StyledHeaderButton>Login</StyledHeaderButton>
+      <Link href="/login">Login</Link>
     </StyledHeader>
   )
 }

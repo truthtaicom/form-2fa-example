@@ -52,7 +52,7 @@ function Home() {
               imageURL={data.image}
               buttonGroups={
                 <>
-                  <Button>View</Button>
+                  <Button primary>View</Button>
                   <Button>Add to Cart</Button>
                 </>
               }

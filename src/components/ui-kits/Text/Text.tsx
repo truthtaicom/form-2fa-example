@@ -2,7 +2,7 @@ import React from 'react'
 import { StyledText } from './Text.styled'
 
 interface TextProps {
-  children: string
+  children: any
   role?: string
 }
 
